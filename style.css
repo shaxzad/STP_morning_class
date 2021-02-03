@@ -152,6 +152,9 @@ h1,h2,h3,h4,h5,h6 {
 #about-me .about-content .social-icons ul li a:hover {
     color: red;
 }
+.about-img {
+    overflow: hidden;
+}
 /* About me end here  */
 
 /* services-sec */
@@ -316,5 +319,8 @@ h1,h2,h3,h4,h5,h6 {
 @media(max-width: 768px) {
     .side-box {
         display: none;
+    }
+    #section-slider .container .row .content-box {
+        width: 90%;
     }
 }
